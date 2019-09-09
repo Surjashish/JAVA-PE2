@@ -52,4 +52,16 @@ public class UserTest {
 
 
     }
+
+    @Test
+    public void UserFailure()
+    {
+        user.setData("Mohor","Sengupta",42,50000.0);
+        assertNotEquals("Mohor123 Sengupta",user.getFullName());
+        assertNotEquals(false,user.isValidAge(user.age));
+
+
+    }
+
+
 }

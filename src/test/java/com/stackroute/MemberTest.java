@@ -31,5 +31,15 @@ public class MemberTest {
         assertEquals("Name= Mohor Age= 21 Salary= 100000.0",membervariable.call("Mohor",21,100000.0));
 
     }
+
+    @Test
+    public void memberFailure()
+    {
+
+        assertNotEquals("Name= Surj12a Age= 21 Salary= 50000.0",membervariable.call("Surja",21,50000.0));
+        assertNotEquals("Name= Sengup11ta Age= 21 Salary= 70000.0",membervariable.call("Sengupta",21,70000.0));
+        assertNotEquals("Name= Moho23r Age= 21 Salary= 100000.0",membervariable.call("Mohor",21,100000.0));
+
+    }
 }
 

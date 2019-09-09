@@ -51,4 +51,12 @@ public class PalinTest
         assertEquals(false, palin.isPalin("mom123"));
     }
 
+
+    @Test
+    public void isItPalindromeFailure()
+    {
+        assertNotEquals(false, palin.isPalin("mom"));
+        assertNotEquals(true, palin.isPalin("mommy"));
+        assertNotEquals(true, palin.isPalin("mom123"));
+    }
 }

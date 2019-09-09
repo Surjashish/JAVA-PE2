@@ -46,4 +46,14 @@ public class isPowerTest {
 
     }
 
+    @Test
+    public void isItPowerOf4Failure()
+    {
+        assertNotEquals(false, ispower.isPower(16));
+        assertNotEquals(true, ispower.isPower(234));
+        assertNotEquals(false, ispower.isPower(256));
+
+
+
+    }
 }

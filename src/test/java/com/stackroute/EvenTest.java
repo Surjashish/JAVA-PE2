@@ -44,4 +44,14 @@ public class EvenTest {
 
     }
 
+
+    @Test
+    public void EvenNumTestFailure()
+    {
+        assertNotEquals(false, even.isEven(16));
+        assertNotEquals(true, even.isEven(17));
+        assertNotEquals(false, even.isEven(1664728));
+
+    }
+
 }

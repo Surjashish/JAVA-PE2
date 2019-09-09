@@ -47,5 +47,14 @@ public class studentTest {
     }
 
 
+    @Test
+    public void studentDetailsFailure()
+    {
+        double delta=1e-3;
+        assertNotEquals(20.011, stud.average(new int[]{20, 20}),delta);
+        assertNotEquals(210.0, stud.max(new int[]{20, 20}),delta);
+        assertNotEquals(202.0, stud.min(new int[]{20, 20}),delta);
+    }
+
 
 }

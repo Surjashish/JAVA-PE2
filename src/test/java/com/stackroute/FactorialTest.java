@@ -53,4 +53,20 @@ public class FactorialTest {
 
 
     }
+
+    @Test
+    public void FactorialFailure()
+    {
+
+        assertNotEquals("The factorial of 12 is 47900161200",factorial.factorial(12));
+
+
+        assertNotEquals("The factorial of 12 is 1",factorial.factorial2(1));
+        assertNotEquals("The factorial of 210 is 2432902008176640000",factorial.factorial2(20));
+
+
+
+
+
+    }
 }

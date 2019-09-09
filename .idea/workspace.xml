@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00e5ab8c-ec5f-4811-81ca-75023ca37cf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/EvenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/EvenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/FactorialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/FactorialTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/MemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/MemberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/PalinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/PalinTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/isPowerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/isPowerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/studentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/studentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/EvenTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stackroute/EvenTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/FactorialTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stackroute/FactorialTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/MemberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stackroute/MemberTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/PalinTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stackroute/PalinTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stackroute/UserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/isPowerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stackroute/isPowerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/studentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stackroute/studentTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +51,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserTest">
-    <configuration name="FactorialTest.Factorial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EvenTest.EvenNumTestFailure">
+    <configuration name="EvenTest.EvenNumTestFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java PE2" />
       <extension name="coverage">
         <pattern>
@@ -49,14 +61,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.stackroute" />
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.FactorialTest" />
-      <option name="METHOD_NAME" value="Factorial" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.EvenTest" />
+      <option name="METHOD_NAME" value="EvenNumTestFailure" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MemberTest.memberFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java PE2" />
       <extension name="coverage">
         <pattern>
@@ -66,28 +78,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.stackroute" />
       <option name="MAIN_CLASS_NAME" value="com.stackroute.MemberTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemberTest.member" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java PE2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stackroute.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.stackroute" />
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.MemberTest" />
-      <option name="METHOD_NAME" value="member" />
+      <option name="METHOD_NAME" value="memberFailure" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalinTest.isItPalindromeFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java PE2" />
       <extension name="coverage">
         <pattern>
@@ -96,13 +93,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.stackroute" />
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.UserTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.PalinTest" />
+      <option name="METHOD_NAME" value="isItPalindromeFailure" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.User" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="isPowerTest.isItPowerOf4Failure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java PE2" />
       <extension name="coverage">
         <pattern>
@@ -111,8 +109,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.stackroute" />
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.UserTest" />
-      <option name="METHOD_NAME" value="User" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.isPowerTest" />
+      <option name="METHOD_NAME" value="isItPowerOf4Failure" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="studentTest.studentDetailsFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java PE2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stackroute" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.studentTest" />
+      <option name="METHOD_NAME" value="studentDetailsFailure" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserTest" />
-        <item itemvalue="JUnit.UserTest.User" />
-        <item itemvalue="JUnit.MemberTest" />
-        <item itemvalue="JUnit.MemberTest.member" />
-        <item itemvalue="JUnit.FactorialTest.Factorial" />
+        <item itemvalue="JUnit.EvenTest.EvenNumTestFailure" />
+        <item itemvalue="JUnit.isPowerTest.isItPowerOf4Failure" />
+        <item itemvalue="JUnit.MemberTest.memberFailure" />
+        <item itemvalue="JUnit.PalinTest.isItPalindromeFailure" />
+        <item itemvalue="JUnit.studentTest.studentDetailsFailure" />
       </list>
     </recent_temporary>
   </component>
